@@ -32,24 +32,30 @@ var requestOptions = {
                             nomePokemonA.textContent = dadosSetados[item]
                         }
                             if (lala == 2) {
-                                var altura = dadosSetados[item]
-                                alturaPokemonA.textContent = ("Altura: " + altura + " M")
-                            }
+                                nomeMiniaturaA.textContent = dadosSetados[item]
+                            }    
                                 if (lala == 3) {
-                                    var peso = dadosSetados[item]
-                                    pesoPokemonA.textContent = ("Peso: " + peso + " Kg")
+                                    var altura = dadosSetados[item]
+                                    alturaPokemonA.textContent = ("Altura: " + altura + " M")
                                 }
                                     if (lala == 4) {
-                                        habilidadesPokemonA.textContent = dadosSetados[item] 
+                                        var peso = dadosSetados[item]
+                                        pesoPokemonA.textContent = ("Peso: " + peso + " Kg")
                                     }
                                         if (lala == 5) {
-                                            tipoPokemonA.textContent = dadosSetados[item] 
+                                            habilidadesPokemonA.textContent = dadosSetados[item] 
                                         }
-                                            if (lala != 6){
-                                                lala++
-                                            }else{
-                                                lala = 0
+                                            if (lala == 6) {
+                                                tipoPokemonA.textContent = dadosSetados[item] 
                                             }
+                                                if (lala == 7) {
+                                                    tipoCardPokemonA.textContent = dadosSetados[item] 
+                                                }
+                                                    if (lala != 9){
+                                                        lala++
+                                                    }else{
+                                                        lala = 0
+                                                    }
                 }
 
                 if( i == 1){
@@ -62,24 +68,30 @@ var requestOptions = {
                             nomePokemonB.textContent = dadosSetados[item]
                         }
                             if (lala == 2) {
-                                var altura = dadosSetados[item]
-                                alturaPokemonB.textContent = ("Altura: " + altura + " M")
-                            }
+                                nomeMiniaturaB.textContent = dadosSetados[item]
+                            }    
                                 if (lala == 3) {
-                                    var peso = dadosSetados[item]
-                                    pesoPokemonB.textContent = ("Peso: " + peso + " Kg")
+                                    var altura = dadosSetados[item]
+                                    alturaPokemonB.textContent = ("Altura: " + altura + " M")
                                 }
                                     if (lala == 4) {
-                                        habilidadesPokemonB.textContent = dadosSetados[item]
+                                        var peso = dadosSetados[item]
+                                        pesoPokemonB.textContent = ("Peso: " + peso + " Kg")
                                     }
                                         if (lala == 5) {
-                                            tipoPokemonB.textContent = dadosSetados[item]
+                                            habilidadesPokemonB.textContent = dadosSetados[item] 
                                         }
-                                            if (lala != 6){
-                                                lala++
-                                            }else{
-                                                lala = 0
+                                            if (lala == 6) {
+                                                tipoPokemonB.textContent = dadosSetados[item] 
                                             }
+                                                if (lala == 7) {
+                                                    tipoCardPokemonB.textContent = dadosSetados[item] 
+                                                }
+                                                    if (lala != 9){
+                                                        lala++
+                                                    }else{
+                                                        lala = 0
+                                                    }
                     
                 }
 
@@ -93,24 +105,30 @@ var requestOptions = {
                             nomePokemonC.textContent = dadosSetados[item]
                         }
                             if (lala == 2) {
-                                var altura = dadosSetados[item]
-                                alturaPokemonC.textContent = ("Altura: " + altura + " M")
-                            }
+                                nomeMiniaturaC.textContent = dadosSetados[item]
+                            }    
                                 if (lala == 3) {
-                                    var peso = dadosSetados[item]
-                                    pesoPokemonC.textContent = ("Peso: " + peso + " Kg")
+                                    var altura = dadosSetados[item]
+                                    alturaPokemonC.textContent = ("Altura: " + altura + " M")
                                 }
                                     if (lala == 4) {
-                                        habilidadesPokemonC.textContent = dadosSetados[item]
+                                        var peso = dadosSetados[item]
+                                        pesoPokemonC.textContent = ("Peso: " + peso + " Kg")
                                     }
                                         if (lala == 5) {
-                                            tipoPokemonC.textContent = dadosSetados[item]
+                                            habilidadesPokemonC.textContent = dadosSetados[item] 
                                         }
-                                            if (lala != 6){
-                                                lala++
-                                            }else{
-                                                lala = 0
+                                            if (lala == 6) {
+                                                tipoPokemonC.textContent = dadosSetados[item] 
                                             }
+                                                if (lala == 7) {
+                                                    tipoCardPokemonC.textContent = dadosSetados[item] 
+                                                }
+                                                    if (lala != 9){
+                                                        lala++
+                                                    }else{
+                                                        lala = 0
+                                                    }
                     
                 }
 
@@ -124,24 +142,30 @@ var requestOptions = {
                             nomePokemonD.textContent = dadosSetados[item]
                         }
                             if (lala == 2) {
-                                var altura = dadosSetados[item]
-                                alturaPokemonD.textContent = ("Altura: " + altura + " M")
-                            }
+                                nomeMiniaturaD.textContent = dadosSetados[item]
+                            }    
                                 if (lala == 3) {
-                                    var peso = dadosSetados[item]
-                                    pesoPokemonD.textContent = ("Peso: " + peso + " Kg")
+                                    var altura = dadosSetados[item]
+                                    alturaPokemonD.textContent = ("Altura: " + altura + " M")
                                 }
                                     if (lala == 4) {
-                                        habilidadesPokemonD.textContent = dadosSetados[item]
+                                        var peso = dadosSetados[item]
+                                        pesoPokemonD.textContent = ("Peso: " + peso + " Kg")
                                     }
                                         if (lala == 5) {
-                                            tipoPokemonD.textContent = dadosSetados[item]
+                                            habilidadesPokemonD.textContent = dadosSetados[item] 
                                         }
-                                            if (lala != 6){
-                                                lala++
-                                            }else{
-                                                lala = 0
+                                            if (lala == 6) {
+                                                tipoPokemonD.textContent = dadosSetados[item] 
                                             }
+                                                if (lala == 7) {
+                                                    tipoCardPokemonD.textContent = dadosSetados[item] 
+                                                }
+                                                    if (lala != 9){
+                                                        lala++
+                                                    }else{
+                                                        lala = 0
+                                                    }
                     
                 }
 
@@ -155,24 +179,30 @@ var requestOptions = {
                             nomePokemonE.textContent = dadosSetados[item]
                         }
                             if (lala == 2) {
-                                var altura = dadosSetados[item]
-                                alturaPokemonE.textContent = ("Altura: " + altura + " M")
-                            }
+                                nomeMiniaturaE.textContent = dadosSetados[item]
+                            }    
                                 if (lala == 3) {
-                                    var peso = dadosSetados[item]
-                                    pesoPokemonE.textContent = ("Peso: " + peso + " Kg")
+                                    var altura = dadosSetados[item]
+                                    alturaPokemonE.textContent = ("Altura: " + altura + " M")
                                 }
                                     if (lala == 4) {
-                                        habilidadesPokemonE.textContent = dadosSetados[item]
+                                        var peso = dadosSetados[item]
+                                        pesoPokemonE.textContent = ("Peso: " + peso + " Kg")
                                     }
                                         if (lala == 5) {
-                                            tipoPokemonE.textContent = dadosSetados[item]
+                                            habilidadesPokemonE.textContent = dadosSetados[item] 
                                         }
-                                            if (lala != 6){
-                                                lala++
-                                            }else{
-                                                lala = 0
+                                            if (lala == 6) {
+                                                tipoPokemonE.textContent = dadosSetados[item] 
                                             }
+                                                if (lala == 7) {
+                                                    tipoCardPokemonE.textContent = dadosSetados[item] 
+                                                }
+                                                    if (lala != 9){
+                                                        lala++
+                                                    }else{
+                                                        lala = 0
+                                                    }
                     
                 }
 
@@ -186,24 +216,30 @@ var requestOptions = {
                             nomePokemonF.textContent = dadosSetados[item]
                         }
                             if (lala == 2) {
-                                var altura = dadosSetados[item]
-                                alturaPokemonF.textContent = ("Altura: " + altura + " M")
-                            }
+                                nomeMiniaturaF.textContent = dadosSetados[item]
+                            }    
                                 if (lala == 3) {
-                                    var peso = dadosSetados[item]
-                                    pesoPokemonF.textContent = ("Peso: " + peso + " Kg")
+                                    var altura = dadosSetados[item]
+                                    alturaPokemonF.textContent = ("Altura: " + altura + " M")
                                 }
                                     if (lala == 4) {
-                                        habilidadesPokemonF.textContent = dadosSetados[item]
+                                        var peso = dadosSetados[item]
+                                        pesoPokemonF.textContent = ("Peso: " + peso + " Kg")
                                     }
                                         if (lala == 5) {
-                                            tipoPokemonF.textContent = dadosSetados[item]
+                                            habilidadesPokemonF.textContent = dadosSetados[item] 
                                         }
-                                            if (lala != 6){
-                                                lala++
-                                            }else{
-                                                lala = 0
+                                            if (lala == 6) {
+                                                tipoPokemonF.textContent = dadosSetados[item] 
                                             }
+                                                if (lala == 7) {
+                                                    tipoCardPokemonF.textContent = dadosSetados[item] 
+                                                }
+                                                    if (lala != 9){
+                                                        lala++
+                                                    }else{
+                                                        lala = 0
+                                                    }
                     
                 }
                 
