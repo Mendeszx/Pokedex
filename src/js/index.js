@@ -52,15 +52,28 @@ var requestOptions = {
                                                 if (lala == 7) {
                                                     var tipo = dadosSetados[item]
                                                     const tipoDoPokemonCard = 'tipo-' + tipo
-                                                    console.log(tipoDoPokemonCard)
                                                     const cartaoPokemon = document.getElementById('cartao-a')
                                                     cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                 }
-                                                    if (lala != 9){
-                                                        lala++
-                                                    }else{
-                                                        lala = 0
+                                                    if (lala == 8) {
+                                                        var caminho = dadosSetados[item]
+                                                        var img = document.querySelector("#imgA");
+                                                        console.log(caminho)
+                                                        img.setAttribute('src', caminho);
                                                     }
+                                                        if (lala == 9) {
+                                                            var caminho = dadosSetados[item]
+                                                            var img = document.querySelector("#imgMiniaturaA");
+                                                            console.log(caminho)
+                                                            img.setAttribute('src', caminho);
+                                                        }
+                                                            if (lala != 9){
+                                                                lala++
+                                                            }else{
+                                                                lala = 0
+                                                            }
+                                                                
+                                                                
                 }
 
                 if( i == 1){
@@ -92,15 +105,25 @@ var requestOptions = {
                                                 if (lala == 7) {
                                                     var tipo = dadosSetados[item]
                                                     const tipoDoPokemonCard = 'tipo-' + tipo
-                                                    console.log(tipoDoPokemonCard)
                                                     const cartaoPokemon = document.getElementById('cartao-b')
                                                     cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                 }
-                                                    if (lala != 9){
-                                                        lala++
-                                                    }else{
-                                                        lala = 0
+                                                    if (lala == 8) {
+                                                        var caminho = dadosSetados[item]
+                                                        var img = document.querySelector("#imgB");
+                                                        img.setAttribute('src', caminho);
                                                     }
+                                                        if (lala == 9) {
+                                                            var caminho = dadosSetados[item]
+                                                            var img = document.querySelector("#imgMiniaturaB");
+                                                            console.log(caminho)
+                                                            img.setAttribute('src', caminho);
+                                                        }
+                                                            if (lala != 9){
+                                                                lala++
+                                                            }else{
+                                                                lala = 0
+                                                            }
                     
                 }
 
@@ -133,15 +156,25 @@ var requestOptions = {
                                                 if (lala == 7) {
                                                     var tipo = dadosSetados[item]
                                                     const tipoDoPokemonCard = 'tipo-' + tipo
-                                                    console.log(tipoDoPokemonCard)
                                                     const cartaoPokemon = document.getElementById('cartao-c')
                                                     cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                 }
-                                                    if (lala != 9){
-                                                        lala++
-                                                    }else{
-                                                        lala = 0
+                                                    if (lala == 8) {
+                                                        var caminho = dadosSetados[item]
+                                                        var img = document.querySelector("#imgC");
+                                                        img.setAttribute('src', caminho);
                                                     }
+                                                        if (lala == 9) {
+                                                            var caminho = dadosSetados[item]
+                                                            var img = document.querySelector("#imgMiniaturaC");
+                                                            console.log(caminho)
+                                                            img.setAttribute('src', caminho);
+                                                        }
+                                                            if (lala != 9){
+                                                                lala++
+                                                            }else{
+                                                                lala = 0
+                                                            }
                     
                 }
 
@@ -174,15 +207,25 @@ var requestOptions = {
                                                 if (lala == 7) {
                                                     var tipo = dadosSetados[item]
                                                     const tipoDoPokemonCard = 'tipo-' + tipo
-                                                    console.log(tipoDoPokemonCard)
                                                     const cartaoPokemon = document.getElementById('cartao-d')
                                                     cartaoPokemon.classList.add(tipoDoPokemonCard) 
                                                 }
-                                                    if (lala != 9){
-                                                        lala++
-                                                    }else{
-                                                        lala = 0
+                                                    if (lala == 8) {
+                                                        var caminho = dadosSetados[item]
+                                                        var img = document.querySelector("#imgD");
+                                                        img.setAttribute('src', caminho);
                                                     }
+                                                        if (lala == 9) {
+                                                            var caminho = dadosSetados[item]
+                                                            var img = document.querySelector("#imgMiniaturaD");
+                                                            console.log(caminho)
+                                                            img.setAttribute('src', caminho);
+                                                        }
+                                                            if (lala != 9){
+                                                                lala++
+                                                            }else{
+                                                                lala = 0
+                                                            }
                     
                 }
 
@@ -215,15 +258,25 @@ var requestOptions = {
                                                 if (lala == 7) {
                                                     var tipo = dadosSetados[item]
                                                     const tipoDoPokemonCard = 'tipo-' + tipo
-                                                    console.log(tipoDoPokemonCard)
                                                     const cartaoPokemon = document.getElementById('cartao-e')
                                                     cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                 }
-                                                    if (lala != 9){
-                                                        lala++
-                                                    }else{
-                                                        lala = 0
+                                                    if (lala == 8) {
+                                                        var caminho = dadosSetados[item]
+                                                        var img = document.querySelector("#imgE");
+                                                        img.setAttribute('src', caminho);
                                                     }
+                                                        if (lala == 9) {
+                                                            var caminho = dadosSetados[item]
+                                                            var img = document.querySelector("#imgMiniaturaE");
+                                                            console.log(caminho)
+                                                            img.setAttribute('src', caminho);
+                                                        }
+                                                            if (lala != 9){
+                                                                lala++
+                                                            }else{
+                                                                lala = 0
+                                                            }
                     
                 }
 
@@ -256,14 +309,20 @@ var requestOptions = {
                                                 if (lala == 7) {
                                                     var tipo = dadosSetados[item]
                                                     const tipoDoPokemonCard = 'tipo-' + tipo
-                                                    console.log(tipoDoPokemonCard)
                                                     const cartaoPokemon = document.getElementById('cartao-f')
                                                     cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                 }
                                                     if (lala == 8) {
                                                         var caminho = dadosSetados[item]
-                                                        document.getElementById(imgF).src = caminho
+                                                        var img = document.querySelector("#imgF");
+                                                        img.setAttribute('src', caminho);
                                                     }
+                                                        if (lala == 9) {
+                                                            var caminho = dadosSetados[item]
+                                                            var img = document.querySelector("#imgMiniaturaF");
+                                                            console.log(caminho)
+                                                            img.setAttribute('src', caminho);
+                                                        }
                                                             if (lala != 9){
                                                                 lala++
                                                             }else{

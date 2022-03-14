@@ -69,26 +69,26 @@
     display: block;
 }
 
-.tipo-fogo {
+.tipo-Fire {
     background-color: #ED8A8B;
 }
 
-.tipo-eletrico{
+.tipo-Eletric{
     background-color: #fcc719;
 }
 
-.tipo-agua{
+.tipo-Water{
     background-color: #76befe;
 }
 
-.tipo-grama{
+.tipo-Grass{
     background-color: #49d0b0;
 }
 
-.tipo-trevas{
+.tipo-Ghost{
     background-color: #ba68c8;
 }
 
-.tipo-dragao{
+.tipo-Dragon{
     background-color: #c29791;
 }
