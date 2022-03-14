@@ -1,6 +1,16 @@
 const listaSelecaoPokemons = document.querySelectorAll('.pokemon')
 const pokemonsCard = document.querySelectorAll('.cartao-pokemon')
+const url ="https://api-pokemon-mendes.herokuapp.com/api/pokemon"
 
+const fetchPokemon = () => {
+    fetch(url)
+    .then(Response => Response.json())
+    .then(pokemon => {
+        console.log(pokemon)
+    })
+}
+
+fetchPokemon()
 
 listaSelecaoPokemons.forEach(pokemon => {
     pokemon.addEventListener('click', () => {
@@ -21,3 +31,4 @@ listaSelecaoPokemons.forEach(pokemon => {
 
     })
 })
+
