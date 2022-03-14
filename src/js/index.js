@@ -260,11 +260,15 @@ var requestOptions = {
                                                     const cartaoPokemon = document.getElementById('cartao-f')
                                                     cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                 }
-                                                    if (lala != 9){
-                                                        lala++
-                                                    }else{
-                                                        lala = 0
+                                                    if (lala == 8) {
+                                                        var caminho = dadosSetados[item]
+                                                        document.getElementById(imgF).src = caminho
                                                     }
+                                                            if (lala != 9){
+                                                                lala++
+                                                            }else{
+                                                                lala = 0
+                                                            }
                     
                 }
                 
