@@ -20,6 +20,7 @@ var requestOptions = {
         for(var i = 0; i <= dados.length; i++){
             var dadosSetados = dados[Object.keys(dados)[i]]
             var lala = 0
+            var y
 
             Object.keys(dadosSetados).forEach(function(item){
 
@@ -49,7 +50,11 @@ var requestOptions = {
                                                 tipoPokemonA.textContent = dadosSetados[item] 
                                             }
                                                 if (lala == 7) {
-                                                    tipoCardPokemonA.textContent = dadosSetados[item] 
+                                                    var tipo = dadosSetados[item]
+                                                    const tipoDoPokemonCard = 'tipo-' + tipo
+                                                    console.log(tipoDoPokemonCard)
+                                                    const cartaoPokemon = document.getElementById('cartao-a')
+                                                    cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                 }
                                                     if (lala != 9){
                                                         lala++
@@ -85,7 +90,11 @@ var requestOptions = {
                                                 tipoPokemonB.textContent = dadosSetados[item] 
                                             }
                                                 if (lala == 7) {
-                                                    tipoCardPokemonB.textContent = dadosSetados[item] 
+                                                    var tipo = dadosSetados[item]
+                                                    const tipoDoPokemonCard = 'tipo-' + tipo
+                                                    console.log(tipoDoPokemonCard)
+                                                    const cartaoPokemon = document.getElementById('cartao-b')
+                                                    cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                 }
                                                     if (lala != 9){
                                                         lala++
@@ -122,7 +131,11 @@ var requestOptions = {
                                                 tipoPokemonC.textContent = dadosSetados[item] 
                                             }
                                                 if (lala == 7) {
-                                                    tipoCardPokemonC.textContent = dadosSetados[item] 
+                                                    var tipo = dadosSetados[item]
+                                                    const tipoDoPokemonCard = 'tipo-' + tipo
+                                                    console.log(tipoDoPokemonCard)
+                                                    const cartaoPokemon = document.getElementById('cartao-c')
+                                                    cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                 }
                                                     if (lala != 9){
                                                         lala++
@@ -159,7 +172,11 @@ var requestOptions = {
                                                 tipoPokemonD.textContent = dadosSetados[item] 
                                             }
                                                 if (lala == 7) {
-                                                    tipoCardPokemonD.textContent = dadosSetados[item] 
+                                                    var tipo = dadosSetados[item]
+                                                    const tipoDoPokemonCard = 'tipo-' + tipo
+                                                    console.log(tipoDoPokemonCard)
+                                                    const cartaoPokemon = document.getElementById('cartao-d')
+                                                    cartaoPokemon.classList.add(tipoDoPokemonCard) 
                                                 }
                                                     if (lala != 9){
                                                         lala++
@@ -196,7 +213,11 @@ var requestOptions = {
                                                 tipoPokemonE.textContent = dadosSetados[item] 
                                             }
                                                 if (lala == 7) {
-                                                    tipoCardPokemonE.textContent = dadosSetados[item] 
+                                                    var tipo = dadosSetados[item]
+                                                    const tipoDoPokemonCard = 'tipo-' + tipo
+                                                    console.log(tipoDoPokemonCard)
+                                                    const cartaoPokemon = document.getElementById('cartao-e')
+                                                    cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                 }
                                                     if (lala != 9){
                                                         lala++
@@ -233,7 +254,11 @@ var requestOptions = {
                                                 tipoPokemonF.textContent = dadosSetados[item] 
                                             }
                                                 if (lala == 7) {
-                                                    tipoCardPokemonF.textContent = dadosSetados[item] 
+                                                    var tipo = dadosSetados[item]
+                                                    const tipoDoPokemonCard = 'tipo-' + tipo
+                                                    console.log(tipoDoPokemonCard)
+                                                    const cartaoPokemon = document.getElementById('cartao-f')
+                                                    cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                 }
                                                     if (lala != 9){
                                                         lala++
@@ -248,8 +273,6 @@ var requestOptions = {
          
     })
     .catch(error => console.log('error', error))
-
-
 
 listaSelecaoPokemons.forEach(pokemon => {
     pokemon.addEventListener('click', () => {
