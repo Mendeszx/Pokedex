@@ -85,21 +85,137 @@ var requestOptions = {
                     
                 }
 
-                /* if( i == 2){
+                if( i == 2){
+                    
+                    if (lala == 0) {
+                        var id = dadosSetados[item]
+                        numeroPokemonB.textContent = ("#" + id)
+                    }
+                        if (lala == 1) {
+                            nomePokemonB.textContent = dadosSetados[item]
+                        }
+                            if (lala == 2) {
+                                var altura = dadosSetados[item]
+                                alturaPokemonB.textContent = ("Altura: " + altura + " M")
+                            }
+                                if (lala == 3) {
+                                    var peso = dadosSetados[item]
+                                    pesoPokemonB.textContent = ("Peso: " + peso + " Kg")
+                                }
+                                    if (lala == 4) {
+                                        habilidadesPokemonB.textContent = dadosSetados[item]
+                                        console.log(item) 
+                                    }
+                                        if (lala == 5) {
+                                            tipoPokemonB.textContent = dadosSetados[item]
+                                            console.log(item) 
+                                        }
+                                            if (lala != 6){
+                                                lala++
+                                            }else{
+                                                lala = 0
+                                            }
                     
                 }
 
                 if( i == 3){
                     
+                    if (lala == 0) {
+                        var id = dadosSetados[item]
+                        numeroPokemonB.textContent = ("#" + id)
+                    }
+                        if (lala == 1) {
+                            nomePokemonB.textContent = dadosSetados[item]
+                        }
+                            if (lala == 2) {
+                                var altura = dadosSetados[item]
+                                alturaPokemonB.textContent = ("Altura: " + altura + " M")
+                            }
+                                if (lala == 3) {
+                                    var peso = dadosSetados[item]
+                                    pesoPokemonB.textContent = ("Peso: " + peso + " Kg")
+                                }
+                                    if (lala == 4) {
+                                        habilidadesPokemonB.textContent = dadosSetados[item]
+                                        console.log(item) 
+                                    }
+                                        if (lala == 5) {
+                                            tipoPokemonB.textContent = dadosSetados[item]
+                                            console.log(item) 
+                                        }
+                                            if (lala != 6){
+                                                lala++
+                                            }else{
+                                                lala = 0
+                                            }
+                    
                 }
 
                 if( i == 4){
+                    
+                    if (lala == 0) {
+                        var id = dadosSetados[item]
+                        numeroPokemonB.textContent = ("#" + id)
+                    }
+                        if (lala == 1) {
+                            nomePokemonB.textContent = dadosSetados[item]
+                        }
+                            if (lala == 2) {
+                                var altura = dadosSetados[item]
+                                alturaPokemonB.textContent = ("Altura: " + altura + " M")
+                            }
+                                if (lala == 3) {
+                                    var peso = dadosSetados[item]
+                                    pesoPokemonB.textContent = ("Peso: " + peso + " Kg")
+                                }
+                                    if (lala == 4) {
+                                        habilidadesPokemonB.textContent = dadosSetados[item]
+                                        console.log(item) 
+                                    }
+                                        if (lala == 5) {
+                                            tipoPokemonB.textContent = dadosSetados[item]
+                                            console.log(item) 
+                                        }
+                                            if (lala != 6){
+                                                lala++
+                                            }else{
+                                                lala = 0
+                                            }
                     
                 }
 
                 if( i == 5){
                     
-                } */
+                    if (lala == 0) {
+                        var id = dadosSetados[item]
+                        numeroPokemonB.textContent = ("#" + id)
+                    }
+                        if (lala == 1) {
+                            nomePokemonB.textContent = dadosSetados[item]
+                        }
+                            if (lala == 2) {
+                                var altura = dadosSetados[item]
+                                alturaPokemonB.textContent = ("Altura: " + altura + " M")
+                            }
+                                if (lala == 3) {
+                                    var peso = dadosSetados[item]
+                                    pesoPokemonB.textContent = ("Peso: " + peso + " Kg")
+                                }
+                                    if (lala == 4) {
+                                        habilidadesPokemonB.textContent = dadosSetados[item]
+                                        console.log(item) 
+                                    }
+                                        if (lala == 5) {
+                                            tipoPokemonB.textContent = dadosSetados[item]
+                                            console.log(item) 
+                                        }
+                                            if (lala != 6){
+                                                lala++
+                                            }else{
+                                                lala = 0
+                                            }
+                    
+                }
                 
             });
         }
