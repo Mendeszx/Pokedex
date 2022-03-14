@@ -32,10 +32,12 @@ var requestOptions = {
                             nomePokemonA.textContent = dadosSetados[item]
                         }
                             if (lala == 2) {
-                                alturaPokemonA.textContent = dadosSetados[item]
+                                var altura = dadosSetados[item]
+                                alturaPokemonA.textContent = ("Altura: " + altura + " M")
                             }
                                 if (lala == 3) {
-                                    pesoPokemonA.textContent = dadosSetados[item]
+                                    var peso = dadosSetados[item]
+                                    pesoPokemonA.textContent = ("Peso: " + peso + " Kg")
                                 }
                                     if (lala == 4) {
                                         habilidadesPokemonA.textContent = dadosSetados[item] 
@@ -60,16 +62,20 @@ var requestOptions = {
                             nomePokemonB.textContent = dadosSetados[item]
                         }
                             if (lala == 2) {
-                                alturaPokemonB.textContent = dadosSetados[item]
+                                var altura = dadosSetados[item]
+                                alturaPokemonB.textContent = ("Altura: " + altura + " M")
                             }
                                 if (lala == 3) {
-                                    pesoPokemonB.textContent = dadosSetados[item]
+                                    var peso = dadosSetados[item]
+                                    pesoPokemonB.textContent = ("Peso: " + peso + " Kg")
                                 }
                                     if (lala == 4) {
-                                        habilidadesPokemonB.textContent = dadosSetados[item] 
+                                        habilidadesPokemonB.textContent = dadosSetados[item]
+                                        console.log(item) 
                                     }
                                         if (lala == 5) {
-                                            tipoPokemonB.textContent = dadosSetados[item] 
+                                            tipoPokemonB.textContent = dadosSetados[item]
+                                            console.log(item) 
                                         }
                                             if (lala != 6){
                                                 lala++
