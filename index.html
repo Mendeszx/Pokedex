@@ -23,10 +23,10 @@
                 <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu">
                     <div class="cartao-topo">
                         <div class="detalhes">
-                            <h2 class="nome">Pikachu</h2>
-                            <span>#001</span>
+                            <h2 class="nome" id="nomePokemonA"></h2>
+                            <span id="numeroPokemonA"></span>
                         </div>
-                        <span class="tipo">elétrico</span>
+                        <span class="tipo" id="tipoPokemonA"></span>
                         <div class="cartao-imagem">
                             <img src="src/imagens/pikachu.png" alt="Imagem do pikachu">
                         </div>
@@ -35,18 +35,14 @@
                         <div class="status">
                             <h3>Status</h3>
                             <ul>
-                                <li>HP: 300</li>
-                                <li>Ataque: 300</li>
-                                <li>Defesa: 300</li>
-                                <li>Velocidade: 300</li>
-                                <li>Total: 300</li>
+                                <li id ="alturaPokemonA"></li>
+                                <li id ="pesoPokemonA"></li>
                             </ul>
                         </div>
                         <div class="habilidades">
                             <h3>Habilidades</h3>
                             <ul>
-                                <li>Choque do trovão</li>
-                                <li>Cabeçada</li>
+                                <li id="habilidadesPokemonA"></li>
                             </ul>
                         </div>
                     </div>
@@ -55,10 +51,10 @@
                 <div class="cartao-pokemon tipo-grama" id="cartao-bulbasaur">
                     <div class="cartao-topo">
                         <div class="detalhes">
-                            <h2 class="nome">Bulbasaur</h2>
-                            <span>#002</span>
+                            <h2 class="nome" id="nomePokemonB" ></h2>
+                            <span id="numeroPokemonB" ></span>
                         </div>
-                        <span class="tipo">planta</span>
+                        <span class="tipo" id="tipoPokemonB" ></span>
                         <div class="cartao-imagem">
                             <img src="src/imagens/bulbasaur.png" alt="Imagem do bulbasaur">
                         </div>
@@ -67,18 +63,14 @@
                         <div class="status">
                             <h3>Status</h3>
                             <ul>
-                                <li>HP: 300</li>
-                                <li>Ataque: 300</li>
-                                <li>Defesa: 300</li>
-                                <li>Velocidade: 300</li>
-                                <li>Total: 300</li>
+                                <li Id ="alturaPokemonB"></li>
+                                <li id ="pesoPokemonB"></li>
                             </ul>
                         </div>
                         <div class="habilidades">
                             <h3>Habilidades</h3>
                             <ul>
-                                <li>Choque do trovão</li>
-                                <li>Cabeçada</li>
+                                <li id="habilidadesPokemonB"></li>
                             </ul>
                         </div>
                     </div>
@@ -246,6 +238,7 @@
         </div>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="src/js/index.js"></script>
 </body>
 
