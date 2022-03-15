@@ -7,7 +7,7 @@ var requestOptions = {
     redirect: 'follow'
   };
   
-  fetch("https://api-pokemon-mendes.herokuapp.com/api/pokemon", requestOptions)
+  fetch("https://api-pokemon-dev.herokuapp.com/api/pokemon", requestOptions)
     .then(response => response.text())
     .then(result => {
         var dados = JSON.parse(result)
