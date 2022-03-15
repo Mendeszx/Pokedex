@@ -86,9 +86,57 @@
 }
 
 .tipo-Ghost{
-    background-color: #ba68c8;
+    background-color: #7975D7;
 }
 
 .tipo-Dragon{
     background-color: #c29791;
+}
+
+.tipo-Normal {
+    background-color: #d1d1c6;
+}
+  
+.tipo-Fighting {
+    background-color: #703247;
+}
+  
+.tipo-Flying {
+    background-color: #78A2FF;
+}
+  
+.tipo-Poison {
+    background-color: #A95CA0;
+}
+  
+.tipo-Ground {
+    background-color: #57ce40;
+}
+  
+.tipo-Rock {
+    background-color: #c7a26a;
+}
+  
+.tipo-Bug {
+    background-color: #c7da00f1;
+}
+  
+.tipo-Steel {
+    background-color: #C4C2DB;
+}
+  
+.tipo-Psychic {
+    background-color: #FA65B4;
+}
+  
+.tipo-Ice {
+    background-color: #96F1FF;
+}
+  
+.tipo-Dark {
+    background-color: #444343;
+}
+  
+.tipo-Fairy {
+    background-color: #F9AEFF;
 }
