@@ -62,7 +62,7 @@ function getApi(){
                                                     if (lala == 7) {
                                                         classeTipoPokemonA = 'tipo-' + dadosSetados
                                                         var tipo = dadosSetados
-                                                        const tipoDoPokemonCard = 'tipo-' + tipo
+                                                        const tipoDoPokemonCard = 'tipo-' + dadosSetados
                                                         const cartaoPokemon = document.getElementById('cartao-a')
                                                         cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                     }
@@ -111,7 +111,7 @@ function getApi(){
                                                         if (lala == 7) {
                                                             classeTipoPokemonB = 'tipo-' + dadosSetados
                                                             var tipo = dadosSetados
-                                                            const tipoDoPokemonCard = 'tipo-' + tipo
+                                                            const tipoDoPokemonCard = 'tipo-' + dadosSetados
                                                             const cartaoPokemon = document.getElementById('cartao-b')
                                                             cartaoPokemon.classList.add(tipoDoPokemonCard)
                                                         }
@@ -160,7 +160,7 @@ function getApi(){
                                                         tipoPokemonC.textContent = dadosSetados
                                                     }
                                                         if (lala == 7) {
-                                                            classeTipoPokemonC = 'tipo-' + tipo
+                                                            classeTipoPokemonC = 'tipo-' + dadosSetados
                                                             var tipo = dadosSetados
                                                             const tipoDoPokemonCard = 'tipo-' + dadosSetados
                                                             const cartaoPokemon = document.getElementById('cartao-c')
@@ -211,7 +211,7 @@ function getApi(){
                                                         tipoPokemonD.textContent = dadosSetados
                                                     }
                                                         if (lala == 7) {
-                                                            classeTipoPokemonD = 'tipo-' + tipo
+                                                            classeTipoPokemonD = 'tipo-' + dadosSetados
                                                             var tipo = dadosSetados
                                                             const tipoDoPokemonCard = 'tipo-' + dadosSetados
                                                             const cartaoPokemon = document.getElementById('cartao-d')
@@ -262,7 +262,7 @@ function getApi(){
                                                         tipoPokemonE.textContent = dadosSetados
                                                     }
                                                         if (lala == 7) {
-                                                            classeTipoPokemonE = 'tipo-' + tipo
+                                                            classeTipoPokemonE = 'tipo-' + dadosSetados
                                                             var tipo = dadosSetados
                                                             const tipoDoPokemonCard = 'tipo-' + dadosSetados
                                                             const cartaoPokemon = document.getElementById('cartao-e')
@@ -313,7 +313,7 @@ function getApi(){
                                                         tipoPokemonF.textContent = dadosSetados
                                                     }
                                                         if (lala == 7) {
-                                                            classeTipoPokemonF = 'tipo-' + tipo
+                                                            classeTipoPokemonF = 'tipo-' + dadosSetados
                                                             var tipo = dadosSetados
                                                             const tipoDoPokemonCard = 'tipo-' + dadosSetados
                                                             const cartaoPokemon = document.getElementById('cartao-f')
