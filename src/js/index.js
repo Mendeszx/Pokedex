@@ -347,7 +347,7 @@ function nextPage(){
         alert("As páginas acabaram!");
     }else{
         pagina++
-        url = "https://api-pokemon-dev.herokuapp.com/api/pokemon?size=6&page=" + pagina
+        url = "https://guilherme.app/api/pokemon?size=6&page=" + pagina
         document.getElementById("cartao-a").classList.remove(classeTipoPokemonA)
         document.getElementById("cartao-b").classList.remove(classeTipoPokemonB)
         document.getElementById("cartao-c").classList.remove(classeTipoPokemonC)
@@ -363,7 +363,7 @@ function previousPage(){
         alert("Não existe página anterior!");
     }else{
         pagina = pagina - 1
-        url = "https://api-pokemon-dev.herokuapp.com/api/pokemon?size=6&page=" + pagina
+        url = "https://guilherme.app/api/pokemon?size=6&page=" + pagina
         document.getElementById("cartao-a").classList.remove(classeTipoPokemonA)
         document.getElementById("cartao-b").classList.remove(classeTipoPokemonB)
         document.getElementById("cartao-c").classList.remove(classeTipoPokemonC)
