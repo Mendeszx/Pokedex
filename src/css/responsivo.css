@@ -36,6 +36,10 @@
         max-width: 300px;
     }
 
+    .btn{
+        margin: 10px 0px 0px 65px;
+    }
+
     .listagem ul {
         display: flex;
         gap: 8px;
