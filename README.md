@@ -1,7 +1,7 @@
 # Pokedex
 >Status: Desenvolvimento
 
-Olá, esse projeto é uma interface web onde usei um front end em JavaScript, para chamar essa minha API em Kotlin.
+Olá, Esse projeto é uma interface web onde criei um front end em HTML, CSS e JavaScript, para consumir meu outro repositório API-Pokemon, que é uma API em Kotlin.
 
 <h4>Tecnologias utilizadas</h4>
 
