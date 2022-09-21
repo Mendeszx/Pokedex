@@ -1,6 +1,6 @@
 const listaSelecaoPokemons = document.querySelectorAll('.pokemon')
 const pokemonsCard = document.querySelectorAll('.cartao-pokemon')
-var url ="http://ec2-18-231-185-236.sa-east-1.compute.amazonaws.com:8080/api/pokemon?size=6&page=0"
+var url ="http://api-pokemon-mendes.herokuapp.com/api/pokemon?size=6&page=0"
 var pagina = 0
 var numeroDePaginas
 var classeTipoPokemonA
