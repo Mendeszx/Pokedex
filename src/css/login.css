@@ -118,6 +118,33 @@ body{
     }
 }
 @media only screen and  (max-width:600px){
+    body{
+        font-size: 10px;
+    }
+    .campo-texto > input{
+        width: 100%;
+        border: none;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: var(--cor04);
+        color: var(--cor05);
+        outline: none;
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+    .btn-login{
+        width: 80%;
+        padding: 8px 0px;
+        margin: 5px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 0px;
+        cursor: pointer;
+        box-shadow: 0px 10px 40px -12px #4F4F4F;
+    }
     .main-login{
         flex-direction: column;
     }
@@ -125,7 +152,7 @@ body{
         display: none;
     }
     .esquerda-login{
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .direita-login{
