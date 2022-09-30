@@ -399,4 +399,3 @@ listaSelecaoPokemons.forEach(pokemon => {
 
     })
 })
-
