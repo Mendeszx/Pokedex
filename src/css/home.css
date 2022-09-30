@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dadfe8;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+}
+.main{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.esquerda{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.direita{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.esquerda-img{
+    width: 300px;
+}
+.btn-home{
+    width: 50%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #4F4F4F;
+}
+.btn-home:hover{
+    color: black;
+    background-color: #dadfe8;
+    box-shadow: none;
+}
+@media only screen and  (max-width:600px){
+    body{
+        font-size: 20px;
+    }
+    .main{
+        display: block;
+    }
+    .esquerda{
+        height: 150px;
+    }
+    .direita{
+        height: 150px;
+    }
+    .esquerda-img{
+        margin-bottom: 150px;
+        width: 200px;  
+    }
+}

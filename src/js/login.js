@@ -18,11 +18,13 @@ function loginUsuario(){
         if(this.response == "true"){
             let token = Math.random().toString(16).substring(2)
             sessionStorage.setItem('token',token)
-            window.location.href = '/home.html'
+            window.location.href = '/pokedex.html'
         }else{
             alert("Usuário ou senha incorreto!")
         }
         
     }
-
 }
+
+var numrandom = Math.floor(Math.random() * 905)
+document.getElementById("pokemon-img-login").src = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/" + [numrandom] + ".png";

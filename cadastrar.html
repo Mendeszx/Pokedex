@@ -8,14 +8,13 @@
     <link rel="shortcut icon" type="imagex/png" href="https://img.icons8.com/color/48/000000/psyduck.png">
 </head>
 <body>
-    <script src="src/js/cadastrar.js"></script>
-    <div class="main-login">
-        <div class="esquerda-login">
+    <div class="main-cadastrar">
+        <div class="esquerda-cadastrar">
             <h1>Cadastre-se<br> E entre na sua Pokédex!</h1>
-            <img src="src/imagens/cadastrar.svg" id="esquerda-img" class="esquerda-img" alt="imagens">
+            <img src="#" id="pokemon-img-cadastrar" class="esquerda-img" alt="imagem pokemon">
         </div>
-        <form class="direita-login" action="home.html" method="POST">
-            <div class="card-login">
+        <form class="direita-cadastrar" action="home.html" method="POST">
+            <div class="card-cadastrar">
                 <h1>CADASTRE-SE</h1>
                 <div class="campo-texto">
                     <label for="usuario">Nome</label>
@@ -29,10 +28,11 @@
                     <label for="senha">Senha</label>
                     <input type="password" name="senha" placeholder="Senha" id="senha">
                 </div>
+                <button type="submit" class="btn-cadastrar" onclick="cadastrarUsuario()">Cadastrar</button>
                 <a href="/login.html">Tem uma conta? Conecte-se</a>
-                <button type="submit" class="btn-login" onclick="cadastrarUsuario()">Cadastrar</button>
             </div>
         </form>
     </div>
+    <script src="src/js/cadastrar.js"></script>
 </body>
 </html>

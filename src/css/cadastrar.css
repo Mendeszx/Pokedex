@@ -10,7 +10,7 @@ a{
 }
 :root{
     --cor00:#201b2c;
-    --cor02:#FFC727;
+    --cor02:#808080;
     --cor03:#808080;
     --cor04:white;
     --cor05:black;
@@ -20,7 +20,7 @@ a{
 body{
     font-family: 'Poppins', sans-serif;
 }
-.main-login{
+.main-cadastrar{
     width: 100vw;
     height: 100vh;
     background-color: #dadfe8;
@@ -28,7 +28,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.esquerda-login{
+.esquerda-cadastrar{
     width: 50vw;
     height:100vh ;
     display: flex;
@@ -36,19 +36,19 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.esquerda-login > h1{
-    color: #FFC727 ;
+.esquerda-cadastrar > h1{
+    color: black ;
     font-size: 2vw;
     
 }
-.direita-login{
+.direita-cadastrar{
     width: 50vw;
     height:100vh ;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.card-login{
+.card-cadastrar{
     width: 60%;
     height: auto;
     display: flex;
@@ -91,7 +91,7 @@ body{
     color: var(--cor05);
     margin-bottom: 10px;
 }
-.btn-login{
+.btn-cadastrar{
     width: 100%;
     padding: 16px 0px;
     margin: 25px;
@@ -110,10 +110,10 @@ body{
     box-shadow: none;
 }
 .esquerda-img{
-    width: 30vw;
+    width: 300px;
 }
 @media only screen and  (max-width:950px){
-    .card-login{
+    .card-cadastrar{
         width: 85%;
     }
 }
@@ -132,10 +132,11 @@ body{
         box-sizing: border-box;
         font-size: 10px;
     }
-    .btn-login{
+    .btn-cadastrar{
         width: 80%;
         padding: 8px 0px;
         margin: 5px;
+        margin-bottom: 20px;
         border: none;
         border-radius: 8px;
         outline: none;
@@ -145,21 +146,22 @@ body{
         cursor: pointer;
         box-shadow: 0px 10px 40px -12px #4F4F4F;
     }
-    .main-login{
+    .main-cadastrar{
         flex-direction: column;
     }
-    .esquerda-login > h1{
+    .esquerda-cadastrar > h1{
         display: none;
     }
-    .esquerda-login{
+    .esquerda-cadastrar{
         width: 80%;
         height: auto;
     }
-    .direita-login{
+    .direita-cadastrar{
         width: 100%;
         height: auto;
     }
     .esquerda-img{
-      width: 50vw;  
+        width: 200px;
+        margin-bottom: 20px;
     }
 }

@@ -25,5 +25,7 @@ function cadastrarUsuario(){
         }
         
     }
-
 }
+
+var numrandom = Math.floor(Math.random() * 905)
+document.getElementById("pokemon-img-cadastrar").src = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/" + [numrandom] + ".png";
