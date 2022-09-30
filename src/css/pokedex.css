@@ -267,10 +267,10 @@ main{
     overflow: hidden;
     border-radius: 30px;
 }
-.next, .previous{
+.next, .previous, .sair{
     color: #6b727a;
 }
-.next:hover, .previous:hover{
+.next:hover, .previous:hover, .sair:hover{
     color: #FFFFFF;
     background: #6b727a;
 }
@@ -324,6 +324,12 @@ main{
 
     .btn{
         margin: 10px 0px 0px 65px;
+    }
+
+    .sair{
+        margin: 0px 0px 50px 0px;
+        align-items: center;
+        justify-content: center;
     }
 
     .listagem ul {

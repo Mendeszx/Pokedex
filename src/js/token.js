@@ -4,6 +4,6 @@ if(sessionStorage.getItem('token') == null){
 }
 
 function sair(){
-    localStorage.removeItem('token')
+    sessionStorage.removeItem('token')
     window.location.href = '/login.html'
 }
