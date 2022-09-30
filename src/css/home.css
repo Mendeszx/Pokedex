@@ -66,10 +66,12 @@ h1{
         display: block;
     }
     .esquerda{
-        height: 150px;
+        height: 200px;
+        width: 378px;
     }
     .direita{
-        height: 150px;
+        height: 200px;
+        width: 378px;
     }
     .esquerda-img{
         margin-bottom: 150px;
