@@ -61,20 +61,24 @@ h1{
 @media only screen and  (max-width:600px){
     body{
         font-size: 20px;
+        
     }
     .main{
-        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
     }
     .esquerda{
         height: 200px;
-        width: 378px;
+        width: 350px;
     }
     .direita{
         height: 200px;
-        width: 378px;
+        width: 350px;
     }
     .esquerda-img{
-        margin-bottom: 150px;
+        margin-bottom: 300px;
         width: 200px;  
     }
     a{
