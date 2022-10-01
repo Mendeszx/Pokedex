@@ -373,6 +373,18 @@ function previousPage(){
     }
 }
 
+/* function buscarPokemon(){
+    let buscar = document.getElementById("buscarPokemon").value
+    let url = "https://api-pokemon-mendes.herokuapp.com/api/pokemon/buscar"
+
+    if(isNaN(buscar)){
+        
+    
+    }else{
+        
+    }
+} */
+
 const botaoNext = document.getElementById("voltar")
 botaoNext.addEventListener("click", previousPage )
 
