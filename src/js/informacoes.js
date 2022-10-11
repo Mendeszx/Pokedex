@@ -1,4 +1,4 @@
-var url = "http://api-pokemon-mendes.herokuapp.com/api/pokemon/buscar"
+var url = "https://api-pokemon-mendes.herokuapp.com/api/pokemon/buscar"
 var response
 var corDeFundoTipo
 var primeiroPokemon
