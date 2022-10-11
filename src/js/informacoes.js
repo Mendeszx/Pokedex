@@ -20,7 +20,7 @@ var requestOptions = {
     redirect: 'follow'
 };
 
-fetch("http://api-pokemon-mendes.herokuapp.com/api/pokemon/buscar", requestOptions)
+fetch("https://api-pokemon-mendes.herokuapp.com/api/pokemon/buscar", requestOptions)
     .then(response => response.text())
     .then(result => {
         response = JSON.parse(result)
@@ -60,7 +60,7 @@ function buscarPokemon() {
         redirect: 'follow'
     };
 
-    fetch("http://api-pokemon-mendes.herokuapp.com/api/pokemon/buscar", requestOptions)
+    fetch("https://api-pokemon-mendes.herokuapp.com/api/pokemon/buscar", requestOptions)
         .then(response => response.text())
         .then(result => {
             response = JSON.parse(result)
