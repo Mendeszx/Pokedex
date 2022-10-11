@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,35 +11,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <main>
         <script src="src/js/token.js"></script>
-        <!-- <div class="search-box">
-            <input type="text" placeholder="Search..." id="bsucarPokemon" class="search-text">
-            <a class="search-btn" onclick="buscarPokemon()">
-                <img src="src/imagens/loupe-blue.svg" width="25px" height="20px" class="loupe-blue" alt="">
-                <img src="src/imagens/loupe-white.svg" width="25px" height="20px" class="loupe-white" alt="">
-            </a>
-        </div> -->
         <div class="pokedex">
+
             <div class="cartoes-pokemon">
                 <div class="cartao-pokemon aberto " id="cartao-a">
-                    <div class="cartao-topo">
-                        <div class="detalhes">
-                            <h2 class="nome" id="nomePokemonA"></h2>
-                            <span id="numeroPokemonA"></span>
+                    <a onclick="armazenaDadosPokemon(nomePokemonAParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonA"></h2>
+                                <span id="numeroPokemonA"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonA"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgA">
+                            </div>
                         </div>
-                        <span class="tipo" id="tipoPokemonA"></span>
-                        <div class="cartao-imagem">
-                            <img src="" alt="Imagem do pokemon" id="imgA">
-                        </div>
-                    </div>
+                    </a>
                     <div class="cartao-informacoes">
                         <div class="status">
                             <h3>Status</h3>
                             <ul>
-                                <li id ="alturaPokemonA"></li>
-                                <li id ="pesoPokemonA"></li>
+                                <li id="alturaPokemonA"></li>
+                                <li id="pesoPokemonA"></li>
                             </ul>
                         </div>
                         <div class="habilidades">
@@ -49,23 +47,26 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="cartao-pokemon " id="cartao-b">
-                    <div class="cartao-topo">
-                        <div class="detalhes">
-                            <h2 class="nome" id="nomePokemonB" ></h2>
-                            <span id="numeroPokemonB" ></span>
+                    <a onclick="armazenaDadosPokemon(nomePokemonBParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonB"></h2>
+                                <span id="numeroPokemonB"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonB"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgB">
+                            </div>
                         </div>
-                        <span class="tipo" id="tipoPokemonB" ></span>
-                        <div class="cartao-imagem">
-                            <img src="" alt="Imagem do pokemon" id="imgB">
-                        </div>
-                    </div>
+                    </a>
                     <div class="cartao-informacoes">
                         <div class="status">
                             <h3>Status</h3>
                             <ul>
-                                <li Id ="alturaPokemonB"></li>
-                                <li id ="pesoPokemonB"></li>
+                                <li Id="alturaPokemonB"></li>
+                                <li id="pesoPokemonB"></li>
                             </ul>
                         </div>
                         <div class="habilidades">
@@ -76,17 +77,20 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="cartao-pokemon " id="cartao-c">
-                    <div class="cartao-topo">
-                        <div class="detalhes">
-                            <h2 class="nome" id="nomePokemonC"></h2>
-                            <span id="numeroPokemonC"></span>
+                    <a onclick="armazenaDadosPokemon(nomePokemonCParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonC"></h2>
+                                <span id="numeroPokemonC"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonC"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgC">
+                            </div>
                         </div>
-                        <span class="tipo" id="tipoPokemonC"></span>
-                        <div class="cartao-imagem">
-                            <img src="" alt="Imagem do pokemon" id="imgC">
-                        </div>
-                    </div>
+                    </a>
                     <div class="cartao-informacoes">
                         <div class="status">
                             <h3>Status</h3>
@@ -103,17 +107,20 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="cartao-pokemon " id="cartao-d">
-                    <div class="cartao-topo">
-                        <div class="detalhes">
-                            <h2 class="nome" id="nomePokemonD"></h2>
-                            <span id="numeroPokemonD"></span>
+                    <a onclick="armazenaDadosPokemon(nomePokemonDParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonD"></h2>
+                                <span id="numeroPokemonD"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonD"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgD">
+                            </div>
                         </div>
-                        <span class="tipo" id="tipoPokemonD"></span>
-                        <div class="cartao-imagem">
-                            <img src="" alt="Imagem do pokemon" id="imgD">
-                        </div>
-                    </div>
+                    </a>
                     <div class="cartao-informacoes">
                         <div class="status">
                             <h3>Status</h3>
@@ -130,17 +137,20 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="cartao-pokemon " id="cartao-e">
-                    <div class="cartao-topo">
-                        <div class="detalhes">
-                            <h2 class="nome" id="nomePokemonE"></h2>
-                            <span id="numeroPokemonE"></span>
+                    <a onclick="armazenaDadosPokemon(nomePokemonEParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonE"></h2>
+                                <span id="numeroPokemonE"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonE"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgE">
+                            </div>
                         </div>
-                        <span class="tipo" id="tipoPokemonE"></span>
-                        <div class="cartao-imagem">
-                            <img src="" alt="Imagem do pokemon" id="imgE">
-                        </div>
-                    </div>
+                    </a>
                     <div class="cartao-informacoes">
                         <div class="status">
                             <h3>Status</h3>
@@ -157,17 +167,20 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="cartao-pokemon " id="cartao-f">
-                    <div class="cartao-topo">
-                        <div class="detalhes">
-                            <h2 class="nome" id="nomePokemonF"></h2>
-                            <span id="numeroPokemonF"></span>
+                    <a onclick="armazenaDadosPokemon(nomePokemonFParaPesquisa)" href="/informacoes.html">
+                        <div class="cartao-topo">
+                            <div class="detalhes">
+                                <h2 class="nome" id="nomePokemonF"></h2>
+                                <span id="numeroPokemonF"></span>
+                            </div>
+                            <span class="tipo" id="tipoPokemonF"></span>
+                            <div class="cartao-imagem">
+                                <img src="" alt="Imagem do pokemon" id="imgF">
+                            </div>
                         </div>
-                        <span class="tipo" id="tipoPokemonF"></span>
-                        <div class="cartao-imagem">
-                            <img src="" alt="Imagem do pokemon" id="imgF">
-                        </div>
-                    </div>
+                    </a>
                     <div class="cartao-informacoes">
                         <div class="status">
                             <h3>Status</h3>
@@ -185,6 +198,7 @@
                     </div>
                 </div>
             </div>
+
             <nav class="listagem">
                 <ul>
                     <li class="pokemon ativo A" id="a">
@@ -220,4 +234,5 @@
     </main>
     <script src="src/js/pokedex.js"></script>
 </body>
+
 </html>
